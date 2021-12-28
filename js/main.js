@@ -39,7 +39,8 @@ overlay.onclick = function () {
 respIcon.onclick =function() {
   if (respMenu.classList.contains("active") == false) {
     respMenu.classList.add("active");
-    overlay.style.display = "block"
+    overlay.style.display = "block";
+    overlay.style.zIndex = 200
   }
   else {
     respMenu.classList.remove("active");
